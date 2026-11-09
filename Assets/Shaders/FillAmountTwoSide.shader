@@ -5,7 +5,8 @@ Shader "Custom/WiperFill"
         [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
         _Color ("Tint", Color) = (1,1,1,1)
         _FillAmount ("Fill Amount", Range(0, 1)) = 0.5
-        [Toggle] _Symmetric ("Symmetric", Float) = 1   // в обе стороны или только по часовой
+        [Toggle] _Symmetric ("Symmetric", Float) = 1   // РІ РѕР±Рµ СЃС‚РѕСЂРѕРЅС‹ РёР»Рё С‚РѕР»СЊРєРѕ РїРѕ С‡Р°СЃРѕРІРѕР№
+        [Toggle] _FlipSide ("Reverse Side", Float) = 0 // РІ РєР°РєСѓСЋ СЃС‚РѕСЂРѕРЅСѓ СЂР°СЃС‚С‘С‚/СѓРјРµРЅСЊС€Р°РµС‚СЃСЏ СЃРµРєС‚РѕСЂ
     }
 
     SubShader
@@ -38,6 +39,7 @@ Shader "Custom/WiperFill"
             fixed4 _Color;
             float _FillAmount;
             float _Symmetric;
+            float _FlipSide;
             #define PI 3.14159265359
 
             v2f vert (appdata_t v)
@@ -51,21 +53,25 @@ Shader "Custom/WiperFill"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                // Центр UV (0.5, 0.5)
+                // Р¦РµРЅС‚СЂ UV (0.5, 0.5)
                 float2 center = float2(0.5, 0.5);
                 float2 dir = i.uv - center;
 
-                // Угол от вертикали вверх (против часовой)
+                // РЈРіРѕР» РѕС‚ РІРµСЂС‚РёРєР°Р»Рё РІРІРµСЂС… (РїСЂРѕС‚РёРІ С‡Р°СЃРѕРІРѕР№)
                 float angle = atan2(dir.x, dir.y); // -PI .. PI
                 if (angle < 0) angle += 2 * PI;    // 0 .. 2PI
 
+                // РћС‚СЂР°Р¶Р°РµРј СѓРіРѕР» РїРѕ РІРµСЂС‚РёРєР°Р»Рё: СЂРѕСЃС‚/СЃР¶Р°С‚РёРµ СЃРµРєС‚РѕСЂР° РёРґС‘С‚ РІ РґСЂСѓРіСѓСЋ СЃС‚РѕСЂРѕРЅСѓ.
+                if (_FlipSide > 0.5)
+                    angle = (2 * PI - angle) % (2 * PI);
+
                 if (_Symmetric > 0.5)
                 {
-                    // === СИММЕТРИЧНЫЙ РЕЖИМ ===
-                    // Расширение от верхней точки (0°) в обе стороны
-                    // delta = angle (так как startAngle = 0)
+                    // === РЎРРњРњР•РўР РР§РќР«Р™ Р Р•Р–РРњ ===
+                    // Р Р°СЃС€РёСЂРµРЅРёРµ РѕС‚ РІРµСЂС…РЅРµР№ С‚РѕС‡РєРё (0В°) РІ РѕР±Рµ СЃС‚РѕСЂРѕРЅС‹
+                    // delta = angle (С‚Р°Рє РєР°Рє startAngle = 0)
                     float delta = angle;
-                    // Приводим к [-PI, PI] (на случай, если angle > PI)
+                    // РџСЂРёРІРѕРґРёРј Рє [-PI, PI] (РЅР° СЃР»СѓС‡Р°Р№, РµСЃР»Рё angle > PI)
                     delta = fmod(delta + PI, 2 * PI) - PI;
                     float halfAngle = _FillAmount * PI;
                     if (abs(delta) > halfAngle)
@@ -73,15 +79,15 @@ Shader "Custom/WiperFill"
                 }
                 else
                 {
-                    // === ОДНОСТОРОННИЙ РЕЖИМ ===
-                    // По часовой стрелке от верхней точки
+                    // === РћР”РќРћРЎРўРћР РћРќРќРР™ Р Р•Р–РРњ ===
+                    // РџРѕ С‡Р°СЃРѕРІРѕР№ СЃС‚СЂРµР»РєРµ РѕС‚ РІРµСЂС…РЅРµР№ С‚РѕС‡РєРё
                     float clockwiseAngle = (2 * PI - angle) % (2 * PI);
                     float maxAngle = _FillAmount * 2 * PI;
                     if (clockwiseAngle > maxAngle)
                         discard;
                 }
 
-                // Вывод текстуры
+                // Р’С‹РІРѕРґ С‚РµРєСЃС‚СѓСЂС‹
                 fixed4 col = tex2D(_MainTex, i.uv) * i.color;
                 return col;
             }

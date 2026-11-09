@@ -1,92 +1,74 @@
-Key;English;Russian;
-Localization.Hero_archer;Archer;Лучник;
-Localization.Hero_assassin;Assassin;Ассассин;
-Localization.Hero_hackbutter;Hackbutter;Стрелок;
-Localization.Hero_mage;Mage;Маг;
-Localization.Hero_knight;Knight;Рыцарь;
-Localization.Hero_warrior;Warrior;Воин;
-Localization.Hero_archer_disc;Attacks a random enemy. Every third arrow ricochets at another enemy, if there is one;Атакует случайного врага. Каждая третья стрела рикошетит в другого врага, если он есть;
-Localization.Hero_knight_disc;Attacks the closest enemy. Takes 1 less damage;Атакует ближайшего врага. Получает на 1 меньше урона;
-Localization.Hero_hackbutter_disc;Attacks the first two enemies, but only deals half damage to the second;Атакует первых двух врагов, но второму наносит только половину урона;
-Localization.Hero_warrior_disc;Attacks the closest enemy. Cannot be stunned;Атакует ближайшего врага. Не может быть оглушен;
-Localization.Hero_mage_disc;Attacks a random enemy. During an attack, restores mana equal to attack power;Атакует случайного врага. Во время атаки восполняет ману равную силе атаки;
-Localization.Hero_assassin_disc;Attacks the last enemy. Dodges every fifth enemy attack;Атакует последнего врага. Уворачивается от каждой пятой атаки врага;
-Localization.Boss_hydra;Hydra;Гидра;
-Localization.Disc_hydra;-Cannot be poisoned<br><br>-Attacks with all heads at once<br><br>-Can use poison attack;-Не может быть отравлена<br><br>-Атакует всеми головами одновременно<br><br>-Может использовать ядовитую атаку;
-Localization.Enemy_venom_polymer;Venom polymer;Ядовитая слизь;
-Localization.Disc_venom_polymer;Poison immunity;Иммунитет к яду;
-Localization.Enemy_skeleton;Skeleton;Скелет;
-Localization.Disc_skeleton;Ordinary enemy;Рядовой противник;
-Localization.Enemy_mutant;Mutant;Мутант;
-Localization.Disc_mutant;Attacks with a series of 4 hits;Атакует серией из 4 ударов;
-Localization.Enemy_zombie_warrior;Zombie warrior;Зомби;
-Localization.Disc_zombie_warrior;Can deal a critical hit;Может нанести критический удар;
-Localization.Enemy_poison_mage;Poison mage;Ядовитый маг;
-Localization.Disc_poison_mage;Can poison an enemy;Может отравить врага;
-Localization.Enemy_skeleton_mage;Skeleton mage;Скелет-маг;
-Localization.Disc_skeleton_mage;Being on the battlefield increases the attack of skeletons;Нахождением на поле боя увеличивает атаку скелетов;
-Localization.Enemy_predator;Predator;Хищник;
-Localization.Disc_predator;Has increased health;Обладает повышенным здоровьем;
-Localization.Enemy_black_knight;Black knight;Черный рыцарь;
-Localization.Disc_black_knight;The best representative of skeletons;Лучший представитель скелетов;
-Localization.Enemy_parasite_monarch;Parasite monarch;Паразит;
-Localization.Disc_parasite_monarch;Poison immunity;Иммунитет к яду;
-Localization.Enemy_pharmacist;Pharmacist;Провизор;
-Localization.Disc_pharmacist;Can restore health;Может восстанавливать здоровье;
-Localization.reload;-RELOAD-;-ПЕРЕЗАРЯДКА-;
-Localization.level;lvl.;Ур.;
-Localization.NoSkills;No active skills;Нет активных скиллов;
-Localization.Skill_RicochetName;Ricochet;Рикошет;
-Localization.Skill_RicochetDisc;Every third arrow ricochets at another enemy, if there is one;Каждая третья стрела рикошетит в другого врага, если он есть;
-Localization.Skill_DamageReduceName;Damage reduce;Уменьшение урона;
-Localization.Skill_DamageReduceDisc;Reduces all incoming damage by 1;Уменьшает на 1 весь входящий урон;
-Localization.Skill_TwoTargetName;Right through;Навылет;
-Localization.Skill_TwoTargetDisc;Attacks the first two enemies, but only deals half damage to the second;Атакует первых двух врагов, но второму наносит только половину урона;
-Localization.Skill_CantStunName;Unbroken;Несломленный;
-Localization.Skill_CantStunDisc;Cannot be stunned;Не может быть оглушен;
-Localization.Skill_ManaRestoreName;Energy vampirism;Энергетический вампиризм;
-Localization.Skill_ManaRestoreDisc;During an attack, restores mana equal to attack power;Во время атаки восполняет ману равную силе атаки;
-Localization.Skill_EvasionName;Evasion;Уворот;
-Localization.Skill_EvasionDisc;Dodges every fifth enemy attack;Уворачивается от каждой пятой атаки врага;
-Localization.Skill_BlockName;Block;Блок;
-Localization.Skill_BlockDisc;Blocks every {0} attacks;Блокирует каждую {0} атаку;
-Localization.Skill_CounterBlowName;Counterattack;Контрудар;
-Localization.Skill_CounterBlowDisc;Before receiving every {0} damage, activates a counterattack;Перед получением каждого {0} урона активизирует контрудар;
-Localization.Skill_DamageReturnName;Damage return;Возврат урона;
-Localization.Skill_DamageReturnDisc;Every {0} damage received is also returned to the enemy;Каждое {0} получение урона также возвращается врагу;
-Localization.Skill_PoisonAttackName;Poison attack;Отравленная атака;
-Localization.Skill_PoisonAttackDisc;Every {0} attack poisons the enemy;Каждая {0} атака отравляет врага;
-Localization.Skill_BloodAttackName;Blood attack;Кровавая атака;
-Localization.Skill_BloodAttackDisc;Every {0} attack inflicts Bleeding on the enemy;Каждая {0} атака накладывает кровотечение на врага;
-Localization.Skill_DoubleAttackName;Double attack;Двойная атака;
-Localization.Skill_DoubleAttackDisc;Every {0} attack will be double;Каждая {0} атака будет двойной;
-Localization.Buff_SharpeningWeaponsName;Sharpening weapons;Заточка оружия;
-Localization.Buff_SharpeningWeaponsDisc;Increases damage by {0};Увеличивает урон на {0};
-Localization.Buff_ThrustForLifeName;Thrust for life;Тяга к жизни;
-Localization.Buff_ThrustForLifeDisc;Increases life by {0};Увеличивает жизнь на {0};
-Localization.Buff_WornBootsName;Worn boots;Ношенные сапоги;
-Localization.Buff_WornBootsDisc;Increases speed by {0};Увеличивает скорость на {0};
-Localization.max;max;макс.;
-Localization.power;Power;Сила;
-Localization.squadPower;Squad power: ;Сила отряда: ;
-Localization.world_1;World 1;Мир 1;
-Localization.world_2;World 2;Мир 2;
-Localization.world_3;World 3;Мир 3;
-Localization.world_4;World 4;Мир 4;
-Localization.world_5;World 5;Мир 5;
-Localization.world_6;World 6;Мир 6;
-Localization.world_7;World 7;Мир 7;
-Localization.worldDescription_1;World Description 1;Мир Описание 1;
-Localization.worldDescription_2;World Description 2;Мир Описание 2;
-Localization.worldDescription_3;World Description 3;Мир Описание 3;
-Localization.worldDescription_4;World Description 4;Мир Описание 4;
-Localization.worldDescription_5;World Description 5;Мир Описание 5;
-Localization.worldDescription_6;World Description 6;Мир Описание 6;
-Localization.worldDescription_7;World Description 7;Мир Описание 7;
-Localization.worldReward_1;World reward 1;Мир Награда 1;
-Localization.worldReward_2;World reward 2;Мир Награда 2;
-Localization.worldReward_3;World reward 3;Мир Награда 3;
-Localization.worldReward_4;World reward 4;Мир Награда 4;
-Localization.worldReward_5;World reward 5;Мир Награда 5;
-Localization.worldReward_6;World reward 6;Мир Награда 6;
-Localization.worldReward_7;World reward 7;Мир Награда 7;
+Key;Russian;English;Spanish;French;German;Turkish;Polish;Chinese;Japanese;Korean;Portuguese
+Localization.Fight;БОЙ;FIGHT;LUCHA;COMBAT;KAMPF;SAVAŞ;WALCZ;战斗;戦闘;전투;LUTAR
+Localization.Round;Раунд {0}/{1};Round {0}/{1};Ronda {0}/{1};Manche {0}/{1};Runde {0}/{1};Tur {0}/{1};Runda {0}/{1};回合 {0}/{1};ラウンド {0}/{1};라운드 {0}/{1};Rodada {0}/{1}
+Localization.HP;{0} ОЗ;{0} HP;{0} PS;{0} PV;{0} LP;{0} HP;{0} HP;{0} 生命值;{0} HP;{0} HP;{0} HP
+Localization.Exit;ВЫХОД;EXIT;SALIR;QUITTER;BEENDEN;ÇIKIŞ;WYJDŹ;退出;終了;종료;SAIR
+Localization.Settings;НАСТРОЙКИ;SETTINGS;AJUSTES;PARAMÈTRES;EINSTELLUNGEN;AYARLAR;USTAWIENIA;设置;設定;설정;CONFIGURAÇÕES
+Localization.Menu;МЕНЮ;MENU;MENÚ;MENU;MENÜ;MENÜ;MENU;菜单;メニュー;메뉴;MENU
+Localization.Win;ПОБЕДА;WIN;VICTORIA;VICTOIRE;SIEG;KAZANDIN;WYGRANA;胜利;勝利;승리;VITÓRIA
+Localization.Lose;ПРОИГРЫШ;LOSE;DERROTA;DÉFAITE;NIEDERLAGE;KAYBETTİN;PRZEGRANA;失败;敗北;패배;DERROTA
+Localization.Attack;УРОН;ATTACK;ATAQUE;ATTAQUE;ANGRIFF;SALDIRI;ATAK;攻击;攻撃;공격;ATAQUE
+Localization.Play;ИГРАТЬ;PLAY;JUGAR;JOUER;SPIELEN;OYNA;GRAJ;开始;プレイ;플레이;JOGAR
+Localization.Updates;УЛУЧШЕНИЯ;UPDATES;MEJORAS;AMÉLIORATIONS;UPGRADES;GELİŞTİRME;ULEPSZENIA;升级;アップグレード;업그레이드;MELHORIAS
+Localization.Back;НАЗАД;BACK;ATRÁS;RETOUR;ZURÜCK;GERİ;WRÓĆ;返回;戻る;뒤로;VOLTAR
+Localization.UpgradeZoneSize;РАЗМЕР ЗОН;ZONE SIZE;TAMAÑO DE ZONAS;TAILLE DES ZONES;ZONENGRÖSSE;BÖLGE BOYUTU;ROZMIAR STREF;区域大小;ゾーンサイズ;영역 크기;TAMANHO DAS ZONAS
+Localization.UpgradeDamage;УРОН;DAMAGE;DAÑO;DÉGÂTS;SCHADEN;HASAR;OBRAŻENIA;伤害;ダメージ;피해;DANO
+Localization.UpgradeTimer;ТАЙМЕР;TIMER;CRONÓMETRO;CHRONOMÈTRE;TIMER;ZAMANLAYICI;TIMER;计时器;タイマー;타이머;CRONÔMETRO
+Localization.UpgradeEnergy;ЭНЕРГИЯ;ENERGY;ENERGÍA;ÉNERGIE;ENERGIE;ENERJİ;ENERGIA;能量;エネルギー;에너지;ENERGIA
+Localization.UpgradeMoveSpeed;СКОРОСТЬ ДВИЖЕНИЯ ЗОНЫ;ZONE MOVE SPEED;VELOCIDAD DE MOVIMIENTO DE ZONAS;VITESSE DE DÉPLACEMENT DES ZONES;BEWEGUNGSGESCHWINDIGKEIT DER ZONEN;BÖLGE HAREKET HIZI;PRĘDKOŚĆ RUCHU STREF;区域移动速度;ゾーン移動速度;영역 이동 속도;VELOCIDADE DE MOVIMENTO DAS ZONAS
+Localization.UpgradeScaleSpeed;СКОРОСТЬ МАСШТАБА ЗОНЫ;ZONE SCALE SPEED;VELOCIDAD DE ESCALA DE ZONAS;VITESSE D'ÉCHELLE DES ZONES;SKALIERUNGSGESCHWINDIGKEIT DER ZONEN;BÖLGE ÖLÇEK HIZI;PRĘDKOŚĆ SKALI STREF;区域缩放速度;ゾーン拡大速度;영역 크기 속도;VELOCIDADE DE ESCALA DAS ZONAS
+Localization.UpgradeArrowSpeed;СКОРОСТЬ СТРЕЛКИ;ARROW SPEED;VELOCIDAD DE LA FLECHA;VITESSE DE LA FLÈCHE;PFEILGESCHWINDIGKEIT;OK HIZI;PRĘDKOŚĆ STRZAŁKI;箭头速度;矢の速度;화살표 속도;VELOCIDADE DA SETA
+Localization.Music;МУЗЫКА;MUSIC;MÚSICA;MUSIQUE;MUSIK;MÜZİK;MUZYKA;音乐;音楽;음악;MÚSICA
+Localization.Sound;ЗВУК;SOUND;SONIDO;SON;KLANG;SES;DŹWIĘK;音效;サウンド;소리;SOM
+Localization.Language;ЯЗЫК;LANGUAGE;IDIOMA;LANGUE;SPRACHE;DİL;JĘZYK;语言;言語;언어;IDIOMA
+Localization.Screen;ЭКРАН;SCREEN;PANTALLA;ÉCRAN;BILDSCHIRM;EKRAN;EKRAN;屏幕;画面;화면;TELA
+Localization.Heal;ЛЕЧЕНИЕ;HEAL;CURACIÓN;SOIN;HEILUNG;ŞİFA;LECZENIE;治疗;回復;치유;CURA
+Localization.Gold;ЗОЛОТО;GOLD;ORO;OR;GOLD;ALTIN;ZŁOTO;金币;ゴールド;골드;OURO
+Localization.Energy;ЭНЕРГИЯ;ENERGY;ENERGÍA;ÉNERGIE;ENERGIE;ENERJİ;ENERGIA;能量;エネルギー;에너지;ENERGIA
+Localization.Timer;ТАЙМЕР;TIMER;CRONÓMETRO;CHRONOMÈTRE;TIMER;ZAMANLAYICI;TIMER;计时器;タイマー;타이머;CRONÔMETRO
+Localization.Trap;ЛОВУШКА;TRAP;TRAMPA;PIÈGE;FALLE;TUZAK;PUŁAPKA;陷阱;トラップ;함정;ARMADILHA
+Localization.Continue;ПРОДОЛЖИТЬ;CONTINUE;CONTINUAR;CONTINUER;WEITER;DEVAM;KONTYNUUJ;继续;続ける;계속;CONTINUAR
+Localization.Shop;МАГАЗИН;SHOP;TIENDA;BOUTIQUE;SHOP;MAĞAZA;SKLEP;商店;ショップ;상점;LOJA
+Localization.RestoreEnergy;ВОССТАНОВИТЬ ЭНЕРГИЮ;RESTORE ENERGY;RESTAURAR ENERGÍA;RESTAURER L'ÉNERGIE;ENERGIE AUFFÜLLEN;ENERJİYİ YENİLE;ODNOWIĆ ENERGIĘ;恢复能量;エネルギー回復;에너지 회복;RESTAURAR ENERGIA
+Localization.RestoreHP;ВОССТАНОВИТЬ ЗДОРОВЬЕ;RESTORE HP;RESTAURAR PS;RESTAURER PV;LP AUFFÜLLEN;CANI YENİLE;ODNOWIĆ ŻYCIE;恢复生命;HP回復;체력 회복;RESTAURAR VIDA
+Localization.Resume;ВОЗОБНОВИТЬ;RESUME;REANUDAR;REPRENDRE;FORTSETZEN;DEVAM ET;WZNÓW;继续;再開;계속하기;RETOMAR
+Localization.Pause;ПАУЗА;PAUSE;PAUSA;PAUSE;PAUSE;DURAKLAT;PAUZA;暂停;一時停止;일시정지;PAUSAR
+Localization.RelicTick;ТИК;TICK;TIC;TIC;TICK;TIK;TIK;滴答;チク;틱;TIQUE
+Localization.RelicSpark;ИСКРА;SPARK;CHISPA;ÉTINCELLE;FUNKE;KIVILCIM;ISKRA;火花;スパーク;스파크;FAÍSCA
+Localization.RelicPulse;ПУЛЬС;PULSE;PULSO;POULS;PULS;NABIZ;PULS;脉搏;パルス;맥박;PULSO
+Localization.RelicHourglass;ПЕСОЧНЫЕ ЧАСЫ;HOURGLASS;RELOJ DE ARENA;SABLIER;SANDUHR;KUM SAATİ;KLEPSYDRA;沙漏;砂時計;모래시계;AMPULHETA
+Localization.RelicThrift;ЭКОНОМ;THRIFT;AHORRO;ÉPARGNE;SPARSAM;TASARRUF;OSZCZĘDNOŚĆ;节俭;節約;절약;ECONOMIA
+Localization.RelicTimeTrophy;ТРОФЕЙ ВРЕМЕНИ;TIME TROPHY;TROFEO DE TIEMPO;TROPHÉE DU TEMPS;ZEITTROPHÄE;ZAMAN GANİMETİ;TROFEUM CZASU;时间战利品;時のトロフィー;시간 전리품;TROFÉU DO TEMPO
+Localization.RelicGenerator;ГЕНЕРАТОР;GENERATOR;GENERADOR;GÉNÉRATEUR;GENERATOR;ÜRETEÇ;GENERATOR;发电机;ジェネレーター;발전기;GERADOR
+Localization.RelicAdrenaline;АДРЕНАЛИН;ADRENALINE;ADRENALINA;ADRÉNALINE;ADRENALIN;ADRENALİN;ADRENALINA;肾上腺素;アドレナリン;아드레날린;ADRENALINA
+Localization.RelicLooter;МАРОДЁР;LOOTER;SAQUEADOR;PILLARD;PLÜNDERER;YAĞMACI;GRABIEŻCA;掠夺者;略奪者;약탈자;SAQUEADOR
+Localization.RelicDeadeye;ТОЧНЫЙ ГЛАЗ;DEADEYE;OJO PRECISO;ŒIL DE LYNX;SCHARFSCHÜTZE;KESKİN NİŞANCI;SOKOLE OKO;神射手;百発百中;명사수;OLHO DE ÁGUIA
+Localization.RelicTimeShield;ЩИТ ВРЕМЕНИ;TIME SHIELD;ESCUDO DE TIEMPO;BOUCLIER DU TEMPS;ZEITSCHILD;ZAMAN KALKANI;TARCZA CZASU;时间护盾;時の盾;시간 방패;ESCUDO DO TEMPO
+Localization.RelicChainReaction;ЦЕПНАЯ РЕАКЦИЯ;CHAIN REACTION;REACCIÓN EN CADENA;RÉACTION EN CHAÎNE;KETTENREAKTION;ZİNCİRLEME TEPKİ;REAKCJA ŁAŃCUCHOWA;连锁反应;連鎖反応;연쇄 반응;REAÇÃO EM CADEIA
+Localization.RelicMagnet;МАГНИТ;MAGNET;IMÁN;AIMANT;MAGNET;MIKNATIS;MAGNES;磁铁;マグネット;자석;ÍMÃ
+Localization.RelicMomentum;СНОРОВКА;MOMENTUM;IMPULSO;ADRESSE;SCHWUNG;ÇEVİKLİK;ZRĘCZNOŚĆ;敏捷;機敏;민첩;IMPULSO
+Localization.RelicReservoir;РЕЗЕРВУАР;RESERVOIR;DEPÓSITO;RÉSERVOIR;RESERVOIR;DEPO;ZBIORNIK;储备;リザーバー;저장고;RESERVATÓRIO
+Localization.RelicStreak;ЦЕПОЧКА;STREAK;RACHA;SÉRIE;SERIE;SERİ;SERIA;连击;連続;연속;SEQUÊNCIA
+Localization.RelicBleed;КРОВОТЕЧЕНИЕ;BLEED;SANGRADO;SAIGNEMENT;BLUTUNG;KANAMA;KRWOTOK;流血;出血;출혈;SANGRAMENTO
+Localization.RelicTailwind;ПОПУТНЫЙ ВЕТЕР;TAILWIND;VIENTO A FAVOR;VENT ARRIÈRE;RÜCKENWIND;ARKA RÜZGAR;WIATR W PLECY;顺风;追い風;순풍;VENTO A FAVOR
+Localization.RelicAnchor;ЯКОРЬ;ANCHOR;ANCLA;ANCRE;ANKER;ÇAPA;KOTWICA;锚;アンカー;닻;ÂNCORA
+Localization.RelicTickDesc;+0,1 сек к таймеру при попадании в зону;+0.1 s to the timer when a zone is hit;+0,1 s al cronómetro al acertar en una zona;+0,1 s au chronomètre lors d'un tir dans une zone;+0,1 s zum Timer, wenn eine Zone getroffen wird;Bölgeye isabet edildiğinde zamanlayıcıya +0,1 sn;+0,1 s do timera przy trafieniu w strefę;命中区域时计时器+0.1秒;ゾーンに命中するとタイマー+0.1秒;영역에 명중하면 타이머 +0.1초;+0,1 s ao cronômetro ao acertar uma zona
+Localization.RelicSparkDesc;+10 энергии;+10 energy;+10 de energía;+10 d'énergie;+10 Energie;+10 enerji;+10 energii;能量+10;エネルギー+10;에너지 +10;+10 de energia
+Localization.RelicPulseDesc;+1 HP;+1 HP;+1 PS;+1 PV;+1 LP;+1 can;+1 HP;生命值+1;HP+1;체력 +1;+1 de vida
+Localization.RelicHourglassDesc;+3 сек таймера;+3 s to the timer;+3 s al cronómetro;+3 s au chronomètre;+3 s zum Timer;Zamanlayıcıya +3 sn;+3 s do timera;计时+3秒;タイマー+3秒;타이머 +3초;+3 s ao cronômetro
+Localization.RelicThriftDesc;Энергия тратится медленнее на +10%;Energy drains +10% slower;La energía se gasta un +10% más lento;L'énergie se consomme +10% plus lentement;Energie verbraucht sich +10% langsamer;Enerji +10% daha yavaş tükenir;Energia zużywa się o +10% wolniej;能量消耗减慢+10%;エネルギーの消費が+10%遅くなる;에너지 소모가 +10% 느려집니다;A energia é gasta +10% mais devagar
+Localization.RelicTimeTrophyDesc;+1 сек таймера после каждого убийства ;+1 s of timer after each kill;+1 s de cronómetro tras cada baja;+1 s de chronomètre après chaque élimination;+1 s Timer nach jedem Kill;Her öldürmeden sonra +1 sn zaman;+1 s timera po każdym zabójstwie;每次击杀后计时+1秒;撃破ごとにタイマー+1秒;처치할 때마다 타이머 +1초;+1 s de cronômetro após cada abate
+Localization.RelicGeneratorDesc;+5 энергии после каждого убийства ;+5 energy after each kill;+5 de energía tras cada baja;+5 d'énergie après chaque élimination;+5 Energie nach jedem Kill;Her öldürmeden sonra +5 enerji;+5 energii po każdym zabójstwie;每次击杀后能量+5;撃破ごとにエネルギー+5;처치할 때마다 에너지 +5;+5 de energia após cada abate
+Localization.RelicAdrenalineDesc;Шанс +5% восстановить +1 HP после каждого убийства ;+5% chance to restore +1 HP after each kill;+5% de probabilidad de recuperar +1 PS tras cada baja;+5% de chances de rendre +1 PV après chaque élimination;+5% Chance, +1 LP nach jedem Kill wiederherzustellen;Her öldürmeden sonra +5% ihtimalle +1 can yenileme;+5% szans na odnowienie +1 HP po każdym zabójstwie;每次击杀后有+5%几率恢复+1点生命值;撃破ごとに+5%の確率でHP+1;처치할 때마다 +5% 확률로 체력 +1;+5% de chance de recuperar +1 de vida após cada abate
+Localization.RelicLooterDesc;После смерти врага даётся на +1 больше золота;Each enemy death grants +1 extra gold;Cada enemigo derrotado da +1 de oro extra;Chaque ennemi tué donne +1 or supplémentaire;Jeder besiegte Gegner gibt +1 Gold extra;Her ölen düşman +1 fazla altın verir;Każdy pokonany wróg daje +1 złota;敌人死亡时多给+1金币;敵撃破時にゴールド+1;적 처치 시 골드 +1;Cada inimigo derrotado concede +1 de ouro extra
+Localization.RelicDeadeyeDesc;Шанс +5%, что атака нанесёт крит +200%;+5% chance for a +200% critical hit;+5% de probabilidad de crítico del +200%;+5% de chances d'un coup critique à +200%;+5% Chance auf einen +200% kritischen Treffer;+5% ihtimalle +200% kritik vuruş;+5% szans na +200% obrażeń krytycznych;+5%几率造成+200%暴击;+5%の確率で+200%のクリティカル;+5% 확률로 +200% 치명타;+5% de chance de acerto crítico de +200%
+Localization.RelicTimeShieldDesc;Шанс +5%, что урон после таймера не будет нанесён;+5% chance to avoid the timer damage;+5% de probabilidad de evitar el daño del cronómetro;+5% de chances d'éviter les dégâts du chronomètre;+5% Chance, den Timerschaden zu vermeiden;+5% ihtimalle zamanlayıcı hasarını önler;+5% szans na uniknięcie obrażeń od timera;+5%几率免疫计时伤害;+5%の確率でタイマーダメージを防ぐ;+5% 확률로 타이머 피해를 막습니다;+5% de chance de evitar o dano do cronômetro
+Localization.RelicChainReactionDesc;Шанс +5%, что урон наносится сразу всем врагам;+5% chance to damage all enemies at once;+5% de probabilidad de dañar a todos los enemigos;+5% de chances de toucher tous les ennemis;+5% Chance, alle Gegner gleichzeitig zu treffen;+5% ihtimalle tüm düşmanlara hasar verir;+5% szans na obrażenia wszystkich wrogów;+5%几率同时伤害所有敌人;+5%の確率で全敵にダメージ;+5% 확률로 모든 적에게 피해;+5% de chance de atingir todos os inimigos
+Localization.RelicMagnetDesc;Шанс +5%, что при промахе будет засчитан клик по ближайшей зоне;+5% chance that a miss counts as a hit on the nearest zone;+5% de probabilidad de que un fallo cuente en la zona más cercana;+5% de chances qu'un tir manqué compte sur la zone la plus proche;+5% Chance, dass ein Fehlschuss als Treffer der nächsten Zone zählt;+5% ihtimalle ıska en yakın bölgeye sayılır;+5% szans, że pudło zaliczy najbliższą strefę;+5%几率将未命中计为最近区域的命中;+5%の確率で外れが最寄りのゾーンに当たる;+5% 확률로 빗나감이 가장 가까운 영역 적중으로 처리;+5% de chance de uma falha contar como acerto na zona mais próxima
+Localization.RelicMomentumDesc;При промахе уменьшает длительность паузы на +10%;Shortens the arrow freeze by +10% on a miss;Reduce la pausa de la flecha un +10% al fallar;Réduit la pause de la flèche de +10% en cas d'échec;Verkürzt die Pfeilpause bei einem Fehlschuss um +10%;Iskada okun bekleme süresini +10% kısaltır;Skraca pauzę strzałki o +10% przy pudle;未命中时箭头停顿缩短+10%;外すと矢の停止時間を+10%短縮;빗나갈 때 화살표 정지 시간을 +10% 줄입니다;Reduz a pausa da seta em +10% ao errar
+Localization.RelicReservoirDesc;+0,1 энергии в секунду во время боя;+0.1 energy per second during combat;+0,1 de energía por segundo en combate;+0,1 d'énergie par seconde en combat;+0,1 Energie pro Sekunde im Kampf;Savaşta saniyede +0,1 enerji;+0,1 energii na sekundę w walce;战斗中每秒能量+0.1;戦闘中毎秒エネルギー+0.1;전투 중 초당 에너지 +0.1;+0,1 de energia por segundo em combate
+Localization.RelicStreakDesc;Каждый следующий клик по зоне приносит на +1 больше, сбрасывается при промахе;Each consecutive zone hit gives +1 more and resets on a miss;Cada acierto consecutivo da +1 más y se reinicia al fallar;Chaque touche consécutive donne +1 de plus et se réinitialise en cas d'échec;Jeder folgende Treffer gibt +1 mehr und setzt sich bei einem Fehlschuss zurück;Her ardışık isabet +1 daha fazla verir ve ıskada sıfırlanır;Każde kolejne trafienie daje +1 więcej i resetuje się przy pudle;连续命中每次额外+1，未命中时重置;連続命中ごとに+1され、外すとリセット;연속 명중할 때마다 +1 증가하며 빗나가면 초기화;Cada acerto consecutivo dá +1 a mais e reinicia ao errar
+Localization.RelicBleedDesc;При старте боя враг получает кровотечение и теряет +1 HP в секунду;At battle start the enemy bleeds and loses +1 HP per second;Al empezar el combate el enemigo sangra y pierde +1 PS por segundo;Au début du combat l'ennemi saigne et perd +1 PV par seconde;Zu Kampfbeginn blutet der Gegner und verliert +1 LP pro Sekunde;Savaş başında düşman kanar ve saniyede +1 can kaybeder;Na starcie walki wróg krwawi i traci +1 HP na sekundę;战斗开始时敌人流血，每秒失去+1点生命值;戦闘開始時に敵が出血し毎秒HPを+1失う;전투 시작 시 적이 출혈하여 초당 체력 +1을 잃습니다;No início do combate o inimigo sangra e perde +1 de vida por segundo
+Localization.RelicTailwindDesc;В слоу-мо ускоряет стрелку на +10%, а не замедляет время;During slow-mo the arrow speeds up by +10% instead of slowing time;En cámara lenta la flecha se acelera un +10% en lugar de ralentizar el tiempo;En ralenti la flèche accélère de +10% au lieu de ralentir le temps;Im Slow-Mo wird der Pfeil um +10% schneller statt die Zeit zu verlangsamen;Ağır çekimde zamanı yavaşlatmak yerine oku +10% hızlandırır;W slow-mo przyspiesza strzałkę o +10% zamiast spowalniać czas;慢动作时加快箭头+10%而不是减慢时间;スローモー時に時間を遅くする代わりに矢を+10%加速;슬로모에서 시간을 늦추는 대신 화살표를 +10% 가속;Em slow-mo acelera a seta em +10% em vez de desacelerar o tempo
+Localization.RelicAnchorDesc;В слоу-мо замедляет стрелку на +10%, а не замедляет время;During slow-mo the arrow slows by +10% instead of slowing time;En cámara lenta la flecha se ralentiza un +10% en lugar de ralentizar el tiempo;En ralenti la flèche ralentit de +10% au lieu de ralentir le temps;Im Slow-Mo wird der Pfeil um +10% langsamer statt die Zeit zu verlangsamen;Ağır çekimde zamanı yavaşlatmak yerine oku +10% yavaşlatır;W slow-mo spowalnia strzałkę o +10% zamiast spowalniać czas;慢动作时减慢箭头+10%而不是减慢时间;スローモー時に時間を遅くする代わりに矢を+10%減速;슬로모에서 시간을 늦추는 대신 화살표를 +10% 감속;Em slow-mo desacelera a seta em +10% em vez de desacelerar o tempo
+Localization.Sold;ПРОДАНО;SOLD;VENDIDO;VENDU;VERKAUFT;SATILDI;SPRZEDANO;已售;売却済み;판매 완료;VENDIDO

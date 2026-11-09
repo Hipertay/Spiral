@@ -35,16 +35,16 @@ namespace Assets.SimpleLocalization
         {
             switch (Application.systemLanguage)
             {
-                /*case SystemLanguage.Russian:
+                case SystemLanguage.Russian:
                     Language = "Russian";
-                    break;*/
+                    break;
                 default:
                     Language = "English";
                     break;
             }
         }
 
-		/// <summary>
+        /// <summary>
 		/// Read localization spreadsheets.
 		/// </summary>
 		public static void Read()
@@ -64,6 +64,8 @@ namespace Assets.SimpleLocalization
                 }
 
                 var lines = text.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+				if (lines.Length == 0) return;
+
 				var languages = lines[0].Split(';').Select(i => i.Trim()).ToList();
 
 				for (var i = 1; i < languages.Count; i++)
@@ -77,11 +79,22 @@ namespace Assets.SimpleLocalization
                 for (var i = 1; i < lines.Length; i++)
                 {
 					var columns = lines[i].Split(';').Select(j => j.Trim()).Select(j => j.Replace("[comma]", ";").Replace("[newline]", "\n")).ToList();
+					if (columns.Count == 0) continue;
+
 					var key = columns[0];
+					if (string.IsNullOrEmpty(key)) continue;
 
                     for (var j = 1; j < languages.Count; j++)
                     {
-                        Dictionary[languages[j]].Add(key, columns[j]);
+                        // Строка может быть короче заголовка (Google Sheets обрезает пустые ячейки).
+                        var value = j < columns.Count ? columns[j] : string.Empty;
+                        var language = languages[j];
+
+                        if (string.IsNullOrEmpty(language)) continue;
+                        if (!Dictionary.ContainsKey(language)) continue;
+                        if (Dictionary[language].ContainsKey(key)) continue;
+
+                        Dictionary[language].Add(key, value);
                     }
                 }
             }
@@ -98,10 +111,20 @@ namespace Assets.SimpleLocalization
             {
                 Read();
             }
-            if (!Dictionary.ContainsKey(Language)) throw new KeyNotFoundException("Language not found: " + Language);
-            if (!Dictionary[Language].ContainsKey(localizationKey)) throw new KeyNotFoundException("Translation not found: " + localizationKey);
 
-            return Dictionary[Language][localizationKey];
+            string value;
+            if (Dictionary.ContainsKey(Language) && Dictionary[Language].TryGetValue(localizationKey, out value))
+                return value;
+
+            // Фолбэк: английский, затем русский, затем сам ключ (без исключения).
+            if (Dictionary.ContainsKey("English") && Dictionary["English"].TryGetValue(localizationKey, out value))
+                return value;
+
+            if (Dictionary.ContainsKey("Russian") && Dictionary["Russian"].TryGetValue(localizationKey, out value))
+                return value;
+
+            Debug.LogWarning("[Localization] Перевод не найден: " + localizationKey + " (" + Language + ")");
+            return localizationKey;
         }
 
 	    /// <summary>
@@ -112,6 +135,32 @@ namespace Assets.SimpleLocalization
             var pattern = Localize(localizationKey);
 
             return string.Format(pattern, args);
+        }
+
+        /// <summary>
+        /// Проверяет наличие перевода без предупреждения в консоль.
+        /// </summary>
+        public static bool TryLocalize(string localizationKey, out string value)
+        {
+            value = null;
+
+            if (string.IsNullOrEmpty(localizationKey))
+                return false;
+
+            if (Dictionary.Count == 0)
+                Read();
+
+            if (Dictionary.ContainsKey(Language) && Dictionary[Language].TryGetValue(localizationKey, out value))
+                return true;
+
+            if (Dictionary.ContainsKey("English") && Dictionary["English"].TryGetValue(localizationKey, out value))
+                return true;
+
+            if (Dictionary.ContainsKey("Russian") && Dictionary["Russian"].TryGetValue(localizationKey, out value))
+                return true;
+
+            value = null;
+            return false;
         }
 
         private static string ReplaceMarkers(string text)

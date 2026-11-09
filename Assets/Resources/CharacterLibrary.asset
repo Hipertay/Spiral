@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e1507fdb02e7e47b4f91793db88963, type: 3}
+  m_Name: CharacterLibrary
+  m_EditorClassIdentifier: 
+  characters:
+  - id: Centaur
+    idleFrames:
+    - {fileID: 21300000, guid: 418e56b4d57f9b1409319d1c06861cff, type: 3}
+    - {fileID: 21300000, guid: f9d0a8a9fb00e2c429935c92a6cede87, type: 3}
+    - {fileID: 21300000, guid: a23bd6f7e50793242a51b4e166d43947, type: 3}
+    - {fileID: 21300000, guid: 405338c45bb220e498552207cd276799, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: 43156b9890a4574488c146e1be462726, type: 3}
+    - {fileID: 21300000, guid: abb0c9c023f5f6249b31383d6d4e6055, type: 3}
+    - {fileID: 21300000, guid: 85afae095cc6d014b9dce372eac3c3da, type: 3}
+    - {fileID: 21300000, guid: ab4c02cd283ce264389669e57d85a299, type: 3}
+    - {fileID: 21300000, guid: 78e93c551bf7c5147b56c0d0b3ffbe5c, type: 3}
+    - {fileID: 21300000, guid: 175e50f3de8f16b4cb2c0dce645abee8, type: 3}
+    - {fileID: 21300000, guid: 955f66451a903fc4f8a2bacaa41342fd, type: 3}
+    - {fileID: 21300000, guid: dd3bf5349d625e14dad21cc93a4a61b0, type: 3}
+    - {fileID: 21300000, guid: c8a2c50670fe9704cbd9c37bf7d62e19, type: 3}
+    - {fileID: 21300000, guid: 784b7783664aa09499a554f1ab92107b, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: d4e41e48ddecad0458e58f57e7b94575, type: 3}
+    - {fileID: 21300000, guid: db4bb7f6d79ed0544bf14fe882fcd6c6, type: 3}
+    - {fileID: 21300000, guid: 99aef036a2d442d4fa9fbd86cddbcfe8, type: 3}
+    - {fileID: 21300000, guid: 55a890f9d833dc44ab16f850f86dd9df, type: 3}
+    - {fileID: 21300000, guid: c9df2111a81490f468f292a2914556ae, type: 3}
+    - {fileID: 21300000, guid: 371e5306e3f0039409557725b4e4956b, type: 3}
+    - {fileID: 21300000, guid: 8ed6b5989445d1d419d41e00c100d81a, type: 3}
+    - {fileID: 21300000, guid: 04cf07e27214aac4db5cb982d9420876, type: 3}
+    - {fileID: 21300000, guid: 5d70aa2afd2d4744188cfb76d6f2f419, type: 3}
+  - id: Demon
+    idleFrames:
+    - {fileID: 21300000, guid: 1622358ec93a4da47a5e52ede1f54a9f, type: 3}
+    - {fileID: 21300000, guid: b219210c341307248afa877c62f64c11, type: 3}
+    - {fileID: 21300000, guid: da556e973455e3a48b53a70a210348cd, type: 3}
+    - {fileID: 21300000, guid: 42ed8ce1b1e1a564094cd448e1e16449, type: 3}
+    - {fileID: 21300000, guid: 18b288f6c6ce4af44a28241c326c975b, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: f2f31fa8521e5cc4ea694523aada6d24, type: 3}
+    - {fileID: 21300000, guid: e9c0604657d5af14ebc887b904544295, type: 3}
+    - {fileID: 21300000, guid: f0e41611e827f044590e82d95bf5d486, type: 3}
+    - {fileID: 21300000, guid: b99cff31306cf594280df5616a28204e, type: 3}
+    - {fileID: 21300000, guid: 293a9060418ae7a44a499c9b20454181, type: 3}
+    - {fileID: 21300000, guid: 3146c7bec82181a43a6763de4fe8451c, type: 3}
+    - {fileID: 21300000, guid: d10594d6c47818e44acbe1e7d647c0d4, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: b75eb0f4057927f48beb1bd4412d2089, type: 3}
+    - {fileID: 21300000, guid: 35cf4eecf3b90484490cce8c022dbd68, type: 3}
+    - {fileID: 21300000, guid: ab5bfdb22262c864a9bb15e90f4439ee, type: 3}
+    - {fileID: 21300000, guid: 9a104b5279bb81c4e8c1fec1398cb96e, type: 3}
+    - {fileID: 21300000, guid: 262f21ce6da3dd5469bfcfee7b1d30cc, type: 3}
+    - {fileID: 21300000, guid: 86f05bb40185d35409ac4416ee9eb521, type: 3}
+    - {fileID: 21300000, guid: b881e34aac8f80d45b5ec8aa1237aa4a, type: 3}
+    - {fileID: 21300000, guid: 789828496f375264f896cf63ccf2ae22, type: 3}
+  - id: FireHaunt
+    idleFrames:
+    - {fileID: 21300000, guid: eef826fa814a1c34e8953ded6c28eeae, type: 3}
+    - {fileID: 21300000, guid: 9e01ebb8a97cfdd49a2b6bd8c878357f, type: 3}
+    - {fileID: 21300000, guid: 9af070321e8859f4da21c06180f672b5, type: 3}
+    - {fileID: 21300000, guid: fd07d0d480e505e40bad908507c92f1d, type: 3}
+    - {fileID: 21300000, guid: 3fdddae5b944c624382e7c20e260998a, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: 3891b5c5f61726645b33eaf6565120a3, type: 3}
+    - {fileID: 21300000, guid: 8f9c574ceebb65446a30b7d2cc4885cd, type: 3}
+    - {fileID: 21300000, guid: 4d0fbe8d81d0b9e429d2027cc45554bd, type: 3}
+    - {fileID: 21300000, guid: 35310324056c63c41afc4ec6f22fd3ef, type: 3}
+    - {fileID: 21300000, guid: d30a9b20b33e08a4995496af70bc2d05, type: 3}
+    - {fileID: 21300000, guid: 565e2a45873d6e04d9421e495c35d5aa, type: 3}
+    - {fileID: 21300000, guid: 037a95bbda20f0548ad7fdc472ef0632, type: 3}
+    - {fileID: 21300000, guid: 287d855ac1c4b584ea6e06532fc133ab, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: da6244fae37d6304c9f5dd6f4f68bfa4, type: 3}
+    - {fileID: 21300000, guid: 8a2a54da2fcb3b7449418ffa322766be, type: 3}
+    - {fileID: 21300000, guid: f430b44b598b4424abdebf037d9f28e0, type: 3}
+    - {fileID: 21300000, guid: a0a2df1e32c557443a26bb4c7857b0f9, type: 3}
+    - {fileID: 21300000, guid: acdd9dc8e03a34241a8bc4db06005563, type: 3}
+    - {fileID: 21300000, guid: 977bd6798c4dab040a8645d71c569366, type: 3}
+    - {fileID: 21300000, guid: ce9f0831033326f4ba3e6526b9e400ef, type: 3}
+    - {fileID: 21300000, guid: f66f8377d0912444aba634454d37a523, type: 3}
+  - id: Frog
+    idleFrames:
+    - {fileID: 21300000, guid: 530c6eabb1552974490b1bd036ae13d1, type: 3}
+    - {fileID: 21300000, guid: 9106468e7f1a0eb47a5da9e27ce23f33, type: 3}
+    - {fileID: 21300000, guid: 3e85e872ac0915a41b3029798c811496, type: 3}
+    - {fileID: 21300000, guid: 81423ba458380024a907721a65b4a187, type: 3}
+    - {fileID: 21300000, guid: bb9a49e6ae432f84a9419787fba4017c, type: 3}
+    - {fileID: 21300000, guid: 15770d93eb0e103469f8ad049414f6ed, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: e06d00b535f03c24096a0a8a07797a5f, type: 3}
+    - {fileID: 21300000, guid: 3d00dcd3a4a4d4f47a28317d8beb3c00, type: 3}
+    - {fileID: 21300000, guid: e1e98ae6ba903084c856efb0fb48ea5e, type: 3}
+    - {fileID: 21300000, guid: 542e38e31391d224aa4362d19eb6c15b, type: 3}
+    - {fileID: 21300000, guid: 953804dccf7511b46babd2bf06c4307f, type: 3}
+    - {fileID: 21300000, guid: c9cbb1daf6ff2b8488e1abcaa50a8d37, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 4f3de499a484e1b45b2597c45027723c, type: 3}
+    - {fileID: 21300000, guid: 2dbc12cd27a093e409cbb5dc0b767647, type: 3}
+    - {fileID: 21300000, guid: 0ee23b872c0a1b846ae4241311497e6a, type: 3}
+    - {fileID: 21300000, guid: 15aa7218092a0d146b04153a83a1b5cc, type: 3}
+    - {fileID: 21300000, guid: 4e61db61b06a18545aa68dcd95d1e670, type: 3}
+    - {fileID: 21300000, guid: 2d40a87c0671aa6458d48c2f16edb20b, type: 3}
+    - {fileID: 21300000, guid: 31b449e3ab7bbc346870bb3806a7a943, type: 3}
+    - {fileID: 21300000, guid: 603c718a36841f24993e0381ceabf7cc, type: 3}
+    - {fileID: 21300000, guid: 0d31b5e5af6a20144a347306b005a232, type: 3}
+    - {fileID: 21300000, guid: 9849ec5c895612c4fa401565f5cd8731, type: 3}
+  - id: Jumping Demon
+    idleFrames:
+    - {fileID: 21300000, guid: 5aa17da3b6d03fd4b99699d983b23e42, type: 3}
+    - {fileID: 21300000, guid: ffaa699f3fd719348812c19fe9f63922, type: 3}
+    - {fileID: 21300000, guid: 138ef932b3309c94e8007ccf8aee9ac7, type: 3}
+    - {fileID: 21300000, guid: 7db5e10d13c621e44a34770d6280d0ef, type: 3}
+    - {fileID: 21300000, guid: d21581e639b26674a9cee18920b01aa2, type: 3}
+    - {fileID: 21300000, guid: 557ce8eb5ac01c94f8fff0c20ea2e959, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: c7cdd509b8a1ae448b26af3d9b44e388, type: 3}
+    - {fileID: 21300000, guid: f623cf1ed34b1d544ba771f054872a64, type: 3}
+    - {fileID: 21300000, guid: c242eee462be13942be2ccf53ba631d5, type: 3}
+    - {fileID: 21300000, guid: 380cc225bb37e324db9f80aee650d699, type: 3}
+    - {fileID: 21300000, guid: 55327e038c03f094cb03e730bec1d1af, type: 3}
+    - {fileID: 21300000, guid: b124e38c238aba848b5875c43f5ce15b, type: 3}
+    - {fileID: 21300000, guid: 6e72983f843254e4897a4da37a8a5f56, type: 3}
+    - {fileID: 21300000, guid: 60190c58e33846f4d8b201a1823575d3, type: 3}
+    - {fileID: 21300000, guid: d59294eaea9db0442bbaeba928d041b9, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 595147837ffa88846959c18f930d9869, type: 3}
+    - {fileID: 21300000, guid: 8d479f547b3f97b4f8800eb366eb736b, type: 3}
+    - {fileID: 21300000, guid: 66ba21bef43a91f42b763f526dccefa6, type: 3}
+    - {fileID: 21300000, guid: 5b7ace65a27f59847b524d20680779dd, type: 3}
+    - {fileID: 21300000, guid: 3d87b848181ec0845a0a99ca98daa307, type: 3}
+    - {fileID: 21300000, guid: 001af06bc1b55e349ad54991e0b337a5, type: 3}
+    - {fileID: 21300000, guid: c7fd13bf03263d844bf76888dccaadb3, type: 3}
+    - {fileID: 21300000, guid: 536912abb058c714f89352462ae5cd0e, type: 3}
+  - id: Mummy
+    idleFrames:
+    - {fileID: 21300000, guid: e52eb8257923bcb48ac13a993c9e91c2, type: 3}
+    - {fileID: 21300000, guid: 94a513f22cbad3145bf6e1ad798f09b5, type: 3}
+    - {fileID: 21300000, guid: 21c5db4d9c36520428dfb293ac0bf8b7, type: 3}
+    - {fileID: 21300000, guid: 7996b91cd00dcbc4f9144f4218898e65, type: 3}
+    - {fileID: 21300000, guid: 8a14759814c5d5c4b8ec050ad01214f7, type: 3}
+    - {fileID: 21300000, guid: 072443c46f87c8847b1e28cf2bc20f85, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: c2fdb092663f446409004575c98b5357, type: 3}
+    - {fileID: 21300000, guid: 63e6725a55563804e8c0122149410469, type: 3}
+    - {fileID: 21300000, guid: f9be966a3a3283642af35313e7cbf721, type: 3}
+    - {fileID: 21300000, guid: 393cd149748ff434cb2cd5ef1aa15d9a, type: 3}
+    - {fileID: 21300000, guid: 3f577b77dc91b1842924bbe2a3e217c9, type: 3}
+    - {fileID: 21300000, guid: 1eee940adaf9f834692848d9152c71e3, type: 3}
+    - {fileID: 21300000, guid: 664cb470d8b5d6f47ba099fab23517e8, type: 3}
+    - {fileID: 21300000, guid: 69090c388e8b49142a64b6834879c16a, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 5bc1e68fd57b3c1438bdaf8912a393f9, type: 3}
+    - {fileID: 21300000, guid: 9f20c2c91a17770499ecee3709f4ef55, type: 3}
+    - {fileID: 21300000, guid: c518fdae425d213438d591ff7fc04824, type: 3}
+    - {fileID: 21300000, guid: 72c0f789a285cac42a32c400bcf31621, type: 3}
+    - {fileID: 21300000, guid: 8eb4f01d92c2bea43af12d71019d5b84, type: 3}
+    - {fileID: 21300000, guid: b0d62148c44cd454abec5968229b271a, type: 3}
+    - {fileID: 21300000, guid: 21a84e3cc3f587248b18f193ea7a250f, type: 3}
+    - {fileID: 21300000, guid: d5fa358d0c4da5347b30d8a6b2f7ef52, type: 3}
+  - id: Ogre
+    idleFrames:
+    - {fileID: 21300000, guid: 7538480a85bfc9044b22deb651bc6d1f, type: 3}
+    - {fileID: 21300000, guid: 0f4479a2b8e385e4eb7adac1ea5c63d2, type: 3}
+    - {fileID: 21300000, guid: c1477529cd23bfa4c8c05a8e6921c2d4, type: 3}
+    - {fileID: 21300000, guid: 2304dd9430fdee44bb0bc88bae46a4ee, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: efd48179e99d06644afe3347f50a70cf, type: 3}
+    - {fileID: 21300000, guid: 4de935426a049bc449de59e235c38344, type: 3}
+    - {fileID: 21300000, guid: a20568f666d129d49a4d13bde23490d6, type: 3}
+    - {fileID: 21300000, guid: 5819710b865f741458a0d67785e544cb, type: 3}
+    - {fileID: 21300000, guid: b93049795339e204fadad4b10f9f8a22, type: 3}
+    - {fileID: 21300000, guid: 4674471620ac8cc4ab220d0430b3d0d2, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: d64ecfe5d5649c540a19a253b918275a, type: 3}
+    - {fileID: 21300000, guid: d9ccb91acdc2473489fb84692c60745a, type: 3}
+    - {fileID: 21300000, guid: 844fd1820931a794e8adaa976154778c, type: 3}
+    - {fileID: 21300000, guid: 6cfc5eb658c846e4cb49d31340edec1c, type: 3}
+    - {fileID: 21300000, guid: fa779472fc297134c903e03a2815bc41, type: 3}
+    - {fileID: 21300000, guid: a272615e48eaf2a45b16daae0974354a, type: 3}
+    - {fileID: 21300000, guid: 857c7f604a0e5a64dac5d151a138a180, type: 3}
+  - id: Slime
+    idleFrames:
+    - {fileID: 21300000, guid: 1dd2ef456651dee44b973755f5dc002c, type: 3}
+    - {fileID: 21300000, guid: 4a12eb4be5dc2684799e5923fbb93cb6, type: 3}
+    - {fileID: 21300000, guid: e2bc509b583da534c80330457744a419, type: 3}
+    - {fileID: 21300000, guid: 38888bbab555ca845ba92221712f21ac, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: bc726c1fdaf576b42ac19ab3541983af, type: 3}
+    - {fileID: 21300000, guid: 6a4c1ff7bad58bd4db7990a132a6573e, type: 3}
+    - {fileID: 21300000, guid: c3c20e2d0b63f1949a4a6d15e49cee2b, type: 3}
+    - {fileID: 21300000, guid: f3db59c65bc270e4fa59cc7cda7d4df9, type: 3}
+    - {fileID: 21300000, guid: 3d5dbe4a63701484098e8f345b512cca, type: 3}
+    - {fileID: 21300000, guid: b5f980ef85dd2e44fa268ae01edc9e5a, type: 3}
+    - {fileID: 21300000, guid: 07473dd874018fb4787c72d72194e6e6, type: 3}
+    - {fileID: 21300000, guid: e99f745abb291ba49a264675d560f2ce, type: 3}
+    - {fileID: 21300000, guid: 2981d819dd4feaa43999b19891627a6d, type: 3}
+    - {fileID: 21300000, guid: 4a0f729338240ed4a8ebebf27b548452, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 1b215ad8868dd7d4f8dd4d06f6b58557, type: 3}
+    - {fileID: 21300000, guid: b8f68e03bb07ee94d884f1a4ff89125d, type: 3}
+    - {fileID: 21300000, guid: b80d37d390ce62243ba136574a49ab10, type: 3}
+    - {fileID: 21300000, guid: 84d5bc92bf2104c47931ef58fd214fbf, type: 3}
+    - {fileID: 21300000, guid: 9ee0069855700ab4a81bd4f34d10604e, type: 3}
+    - {fileID: 21300000, guid: 79251d0add7411749a00db1f2690ef0b, type: 3}
+    - {fileID: 21300000, guid: e9ff38536c02ae1418f78515945f8c09, type: 3}
+    - {fileID: 21300000, guid: b0053140a28c044488e5ea2ac0071760, type: 3}
+    - {fileID: 21300000, guid: 01a322d9ad33a8e4eadcff2147cdf075, type: 3}
+  - id: Treant
+    idleFrames:
+    - {fileID: 21300000, guid: 42fb4e6db8d0bc945b639ad434760490, type: 3}
+    - {fileID: 21300000, guid: 8909e3fed19e08a418b3784e1a47bed4, type: 3}
+    - {fileID: 21300000, guid: 6d106c21a16a0f3499084fa73bc3f35a, type: 3}
+    - {fileID: 21300000, guid: 0ef53cfd35e0c9044ae822778e42983a, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: fdc62a6c62ca08147a33c08ad51824c1, type: 3}
+    - {fileID: 21300000, guid: f1e5f3f5ef7a14a409fda537eb34051b, type: 3}
+    - {fileID: 21300000, guid: 0454cc8e20fe11f429c6b67ea12487df, type: 3}
+    - {fileID: 21300000, guid: 060c24506beacc74186a4716ed4d748a, type: 3}
+    - {fileID: 21300000, guid: e13aed49b91dc0f478a2c23581437ada, type: 3}
+    - {fileID: 21300000, guid: 701c3f5056d768747b97831f207069f7, type: 3}
+    - {fileID: 21300000, guid: b252b10ec0df29c488934ae241877b2c, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: c2800f98e8407f94dbe1a5ce12cad045, type: 3}
+    - {fileID: 21300000, guid: 0d65b9ec93d8fa94d98e68b1455a8b23, type: 3}
+    - {fileID: 21300000, guid: 612b931f03b7e284097d3daf81c0fd48, type: 3}
+    - {fileID: 21300000, guid: 8580ed775f1e4754d93e864223c0abf0, type: 3}
+    - {fileID: 21300000, guid: 942391196f8e1594795f0fcc3852aec3, type: 3}
+    - {fileID: 21300000, guid: cb24a4137640126468665f2e6d504750, type: 3}
+    - {fileID: 21300000, guid: 7298aaa443fae54429e907add2cfd6c3, type: 3}
+  - id: Vampire
+    idleFrames:
+    - {fileID: 21300000, guid: 9848fc2c6e7ac784aa3b6f5e7b63f07c, type: 3}
+    - {fileID: 21300000, guid: 40f2a3e9a6e31e445bf6fc21ca29ec20, type: 3}
+    - {fileID: 21300000, guid: 06cd713ae58bec149a9d9b55acd426b6, type: 3}
+    - {fileID: 21300000, guid: 2a3553dafba7c8048a149ca60ddb2554, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: 66952d4edc3c8e64eb81e23daecedc2f, type: 3}
+    - {fileID: 21300000, guid: e5a25e79511a733449bd1bc1dbd8d3a4, type: 3}
+    - {fileID: 21300000, guid: 1ea96cf562dbbc746b84444cdf826945, type: 3}
+    - {fileID: 21300000, guid: 453582ec0db53c54f99b106ff6a4d92a, type: 3}
+    - {fileID: 21300000, guid: 39b91aa91ea018447884228b1f54d9cb, type: 3}
+    - {fileID: 21300000, guid: 941af4f4589b8554a9d5c78cd0121e11, type: 3}
+    - {fileID: 21300000, guid: b3065fa5de582cd4db2ae3e1865e3837, type: 3}
+    - {fileID: 21300000, guid: f5343f62d50609044ad529fc638f211c, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 6e763093fb001e6438438048aecc2ca8, type: 3}
+    - {fileID: 21300000, guid: 194967d3501adc2459f7511b2423a193, type: 3}
+    - {fileID: 21300000, guid: 00202e313b69b2b46a491e05f754ba93, type: 3}
+    - {fileID: 21300000, guid: fe85d65385b313f43afbe7ead86afb6c, type: 3}
+    - {fileID: 21300000, guid: a9019618d3083034dbec437a102ace7f, type: 3}
+    - {fileID: 21300000, guid: 6f9e325e68bdf5a40becc4e9cfd1323a, type: 3}
+    - {fileID: 21300000, guid: f5062e6ec8c1ff642b3b350f94e842eb, type: 3}
+    - {fileID: 21300000, guid: 898d247e81a920a4089a79a814e63405, type: 3}
+    - {fileID: 21300000, guid: 3184cd521ff4c9645846ea6d266abf45, type: 3}
+    - {fileID: 21300000, guid: f57eed977f5430d4ab09854f410c9a4c, type: 3}
+  - id: Witch
+    idleFrames:
+    - {fileID: 21300000, guid: 917f47351ae0c434ba6a38c8ed23ea4b, type: 3}
+    - {fileID: 21300000, guid: d229d26c2705ccf43b163eff3a8e3b3a, type: 3}
+    - {fileID: 21300000, guid: ba633148ee38a764394ed01161210302, type: 3}
+    - {fileID: 21300000, guid: e36aa7931e4976d46b7dee72a8c81f97, type: 3}
+    - {fileID: 21300000, guid: b5bd9b2d904cfc540a200ddc877749ed, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: 6d7a6395596bfcc4d86511c47e32a231, type: 3}
+    - {fileID: 21300000, guid: 043db81688a503a4abda78088324178b, type: 3}
+    - {fileID: 21300000, guid: 37291f65543d2aa49ae5d5c698e3a75c, type: 3}
+    - {fileID: 21300000, guid: a069873de3028ee49bdb376612894a82, type: 3}
+    - {fileID: 21300000, guid: 67d5ac18e3a79c74798da8fc5b14cefd, type: 3}
+    - {fileID: 21300000, guid: d7d36521a0a8c114385be0fdbc30175b, type: 3}
+    - {fileID: 21300000, guid: 3efef767089d2474ab7f7fb237e6b1e0, type: 3}
+    - {fileID: 21300000, guid: d84b3b2c2d057044e829a8ae07272254, type: 3}
+    - {fileID: 21300000, guid: f5163dc25adfb294c95c6d235cde0931, type: 3}
+    - {fileID: 21300000, guid: 2c61d597d284c714da293652728736d4, type: 3}
+    - {fileID: 21300000, guid: 0722cf7aff1cc7649ab7a1e66056111a, type: 3}
+    - {fileID: 21300000, guid: 9382685c603d4fb49b67583eacfc8d38, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 61501354abb090445b547fc0afad3e39, type: 3}
+    - {fileID: 21300000, guid: 544304397eb35d643866451552d461b8, type: 3}
+    - {fileID: 21300000, guid: d116f2282130ebd489b131f7fb3084e4, type: 3}
+    - {fileID: 21300000, guid: 9666f39d309ef5d449e36a419ab21013, type: 3}
+    - {fileID: 21300000, guid: 7551f66795fc30a44a0be8f491d77b91, type: 3}
+    - {fileID: 21300000, guid: 178bc6c5917c6424ea918360fa14e7d5, type: 3}
+    - {fileID: 21300000, guid: b4385173c79a57b4889fefd8462d055f, type: 3}
+    - {fileID: 21300000, guid: fef20c77f55049f44b2636a859b05bce, type: 3}
+    - {fileID: 21300000, guid: 165e47b8f9374c448a13ee7fc8bea84f, type: 3}
+  - id: Wizard
+    idleFrames:
+    - {fileID: 21300000, guid: 6fd1e95641906994187cfd8d3d3f19e5, type: 3}
+    - {fileID: 21300000, guid: aab6529b59ed3af4fa5ecd46e5114153, type: 3}
+    - {fileID: 21300000, guid: 67cab0ddc44d37043b29cffb179b5d29, type: 3}
+    - {fileID: 21300000, guid: abed0998bec0ae34f86c9a147fbd2944, type: 3}
+    - {fileID: 21300000, guid: 06ca3d18055aca1458124f7d09d9f7a3, type: 3}
+    - {fileID: 21300000, guid: 5a537b95fd63b1c419d8ab97b981d37f, type: 3}
+    attackFrames:
+    - {fileID: 21300000, guid: 17e7e52916bcd274a8253c60658990c6, type: 3}
+    - {fileID: 21300000, guid: 267edb70a21b98f45a2f726c37f0ecce, type: 3}
+    - {fileID: 21300000, guid: 3ace75ffec933bf4185b26543b8a98c9, type: 3}
+    - {fileID: 21300000, guid: 7916d45b627268a4589b17403003fce9, type: 3}
+    - {fileID: 21300000, guid: 618967e656f765b418289d54d71a3f3b, type: 3}
+    - {fileID: 21300000, guid: 77fbf84a684100f42b3fc6721bf69b0d, type: 3}
+    - {fileID: 21300000, guid: ce91bf4290ab3c9439d77c04045a2b15, type: 3}
+    - {fileID: 21300000, guid: d15c4d325d02b584d86b77deb4a469f5, type: 3}
+    defeatFrames:
+    - {fileID: 21300000, guid: 462a7017cc910994bbad1d883095666a, type: 3}
+    - {fileID: 21300000, guid: a416a04c5075b934e909f16fff5003f7, type: 3}
+    - {fileID: 21300000, guid: 18478cd34d4dcbc4d9e0bb604f8d8ebe, type: 3}
+    - {fileID: 21300000, guid: ab3cbbbe6ea559f499176ce3ae2f9f5f, type: 3}
+    - {fileID: 21300000, guid: fb053d0854d0e2f43b98e3aa83f334db, type: 3}
+    - {fileID: 21300000, guid: e70d529469a64cc48bca1b563597152c, type: 3}
+    - {fileID: 21300000, guid: fe05d1b0fc3609e4997ac7f2de2156b7, type: 3}
+    - {fileID: 21300000, guid: 5e99b71dd1259b642a00fd2f65288511, type: 3}
+    - {fileID: 21300000, guid: 6659ce5d6190418448d14571aba94916, type: 3}

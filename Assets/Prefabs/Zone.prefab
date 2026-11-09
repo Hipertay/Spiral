@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6745986367969232301
 RectTransform:
   m_ObjectHideFlags: 0
@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 5154600757373882690}
   - component: {fileID: 1236759494995903750}
   - component: {fileID: 4813194727957700288}
+  - component: {fileID: 7382010123456789012}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -212,6 +213,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7382010123456789012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7079012258248586354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f233166051e0214eae3776b9d5ef1b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Translate
+  key: Localization.Attack
+  asianFont: {fileID: 11400000, guid: 94830cfc63408634b9179055d43791fb, type: 2}
+  startFont: {fileID: 11400000, guid: c4e1d2cc6470ab641b7435e8ef0c1603, type: 2}
 --- !u!1 &8657570867450736145
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +241,6 @@ GameObject:
   - component: {fileID: 5968254346911605145}
   - component: {fileID: 3018481981137384354}
   - component: {fileID: 5763369555032047196}
-  - component: {fileID: -5498743977220529014}
   m_Layer: 5
   m_Name: Zone
   m_TagString: Untagged
@@ -274,7 +289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 2100000, guid: 6fb13641e2504734983eb5f2dc2c9c14, type: 2}
-  m_Color: {r: 0.66576815, g: 0.14019705, b: 0.103185, a: 1}
+  m_Color: {r: 0.5294118, g: 0.21568628, b: 0.21568628, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -321,19 +336,3 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: -7, y: -7}
   m_UseGraphicAlpha: 1
---- !u!114 &-5498743977220529014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8657570867450736145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c6df0f215b67ed4cb6cc7175b7d2b7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZoneBehaviour
-  startAngle: 0
-  width: 0
-  rotateSpeed: 0
-  shrinkSpeed: 0
